@@ -1,8 +1,16 @@
-.lists {
-  background-color: black;
+.flex-container {
+  background-color: blue;
   color: wheat;
   font-family: Georgia, "Times New Roman", Times, serif;
+  border: 2rem;
+  display: flex;
+  gap: 1rem;
 }
 body {
-  background-color: burlywood;
+  background-color: blue;
+}
+.one,
+.two {
+  background-color: red;
+  width: fit-content;
 }
