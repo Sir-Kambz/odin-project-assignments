@@ -1,6 +1,30 @@
-body {
- background-color: #2471A3 ;
+.background {
+  background-color: black;
+  color: blanchedalmond;
+  width: fit-content;
+  height: fit-content;
 }
-.background{
+.flag-container {
+  display: flex;
+  width: 9rem;
+  height: 7rem;
+  border: 63rem
+}
+.highest-top,
+.lowest-bottom {
+  color: green;
+}
+.top,
+.bottom {
+  color: red;
+  height: 1rem;
+}
+.middle {
   color: black;
+  height: 1rem;
+}
+.lower-bottom,
+.upper-top {
+  height: 1rem;
+  color: yellow;
 }
